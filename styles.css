@@ -53,8 +53,8 @@ a:hover {
   justify-content: space-between;
   gap: 24px;
   padding: 16px clamp(20px, 5vw, 72px);
-  border-bottom: 1px solid var(--line);
-  background: rgba(255, 255, 255, 0.96);
+  border-bottom: 3px solid var(--sky);
+  background: var(--heading);
   backdrop-filter: blur(10px);
 }
 
@@ -62,7 +62,7 @@ a:hover {
   display: inline-flex;
   align-items: center;
   gap: 14px;
-  color: var(--heading);
+  color: #ffffff;
   font-family: var(--display);
   font-size: 22px;
   font-weight: 600;
@@ -76,7 +76,7 @@ a:hover {
 
 .brand span {
   padding-left: 14px;
-  border-left: 1px solid var(--line);
+  border-left: 1px solid rgba(255, 255, 255, 0.32);
   line-height: 1;
 }
 
@@ -91,7 +91,11 @@ a:hover {
 }
 
 .nav a {
-  color: var(--muted);
+  color: rgba(255, 255, 255, 0.86);
+}
+
+.nav a:hover {
+  color: #ffffff;
 }
 
 .page-shell {
