@@ -114,18 +114,14 @@ a:hover {
 }
 
 .portrait {
-  display: grid;
   width: 168px;
   height: 168px;
   margin: 0 auto 22px;
-  place-items: center;
   border: 1px solid var(--line);
   border-radius: 0;
-  background: linear-gradient(135deg, #f6f8fa, #dfe8f2);
-  color: var(--heading);
-  font-family: var(--display);
-  font-size: 42px;
-  font-weight: 600;
+  display: block;
+  object-fit: cover;
+  object-position: 50% 28%;
 }
 
 .profile-panel h1,
