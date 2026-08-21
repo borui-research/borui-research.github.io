@@ -1,18 +1,16 @@
-# Jiayi Song Professional Website
+# Bo Rui Academic Website / Bo Rui 学术主页
 
-This is a lightweight GitHub Pages-ready professional homepage for Jiayi Song.
+This repository contains the GitHub Pages source for Bo Rui's academic website.
+本仓库包含 Bo Rui 学术主页的 GitHub Pages 源文件。
 
-## Files
+## Files / 文件
 
-- `index.html`: main website content.
-- `styles.css`: visual design and responsive layout.
-- `assets/jiayi-song-profile.jpg`: profile portrait.
-- `assets/washu-logo.jpg`: Washington University in St. Louis logo used in the header.
+- `index.html`: Main website content. / 网站主要内容。
+- `styles.css`: Visual design and responsive layout. / 视觉设计与响应式布局。
+- `assets/`: Profile and university images. / 个人照片与学校图片。
+- `files/`: Supporting files, if needed. / 可选的辅助文件。
 
-## How to publish on GitHub Pages
+## Publishing / 发布
 
-1. Create a public GitHub repository.
-2. Upload these files to the repository root or push them with Git.
-3. In GitHub, open `Settings > Pages`.
-4. Set the source to `Deploy from a branch`, branch `main`, folder `/root`.
-5. The site will be available at the GitHub Pages URL for the repository.
+Push the repository to GitHub and enable GitHub Pages from the `main` branch.
+将仓库推送到 GitHub，并在 `main` 分支启用 GitHub Pages。
