@@ -6,7 +6,6 @@ This is a lightweight GitHub Pages-ready professional homepage for Jiayi Song.
 
 - `index.html`: main website content.
 - `styles.css`: visual design and responsive layout.
-- `files/jiayi-song-resume.docx`: resume linked from the homepage.
 - `assets/jiayi-song-profile.jpg`: profile portrait.
 - `assets/washu-logo.jpg`: Washington University in St. Louis logo used in the header.
 
