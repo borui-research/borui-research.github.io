@@ -454,3 +454,30 @@ a:focus-visible { outline: 3px solid var(--sky); outline-offset: 5px; }
   .nav a { padding: 8px 0; }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+
+/* Website statistics: the number remains unavailable until a real site is configured. */
+.statistics-bar { display: inline-flex; align-items: center; flex-wrap: wrap; gap: 10px; margin-top: 14px; padding: 9px 10px; border: 1px solid #d7dfeb; background: #f6f8fb; font-family: var(--sans); font-size: 14px; color: #586476; }
+.views-badge { display: inline-flex; overflow: hidden; border-radius: 2px; color: #fff; font: 11px/20px Verdana, sans-serif; white-space: nowrap; }
+.views-label { padding: 0 6px; background: #64748b; }
+.views-count { padding: 0 6px; background: #1e407c; font-weight: 700; }
+.analytics-link { text-decoration: underline; text-underline-offset: 3px; }
+.analytics-link[aria-disabled="true"] { color: var(--muted); text-decoration: none; cursor: default; }
+.section .statistics-status { margin-top: 8px; font-family: var(--sans); font-size: 12px; color: var(--muted); }
+
+/* Teaching and service categories. */
+.service-group { padding: 28px 0; border-top: 1px solid var(--line); }
+.service-group:first-of-type { margin-top: 24px; }
+.service-group:last-child { padding-bottom: 0; }
+.service-group h2 { margin-bottom: 20px; font-size: 25px; }
+.service-group h3 { font-size: 19px; line-height: 1.4; }
+.service-group .service-meta { margin-top: 5px; color: var(--muted); font-family: var(--sans); font-size: 14px; }
+.service-details { margin: 14px 0 0; padding-left: 22px; }
+.service-details li + li { margin-top: 8px; }
+.review-list { margin-top: 14px; }
+.review-list li { display: flex; justify-content: space-between; align-items: baseline; gap: 18px; }
+.review-count { flex-shrink: 0; color: var(--heading); font-family: var(--sans); font-size: 14px; }
+.presentation-list li { padding: 16px 0; }
+@media (max-width: 560px) {
+  .service-group h2 { font-size: 23px; }
+  .review-list li { flex-wrap: wrap; gap: 4px 14px; }
+}
