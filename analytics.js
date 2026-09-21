@@ -1,6 +1,5 @@
-// Set this to the verified GoatCounter site URL before enabling statistics.
-// Leave empty until the owner supplies their personal site's account.
-const ANALYTICS_SITE_URL = '';
+// Verified GoatCounter account for the personal website.
+const ANALYTICS_SITE_URL = 'https://borui-research.goatcounter.com';
 
 (() => {
   if (!ANALYTICS_SITE_URL) return;
