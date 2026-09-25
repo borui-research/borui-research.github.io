@@ -514,3 +514,8 @@ a:focus-visible { outline: 3px solid var(--sky); outline-offset: 5px; }
 @media (max-width: 460px) {
  .research-gallery, .research-gallery:has(> figure:nth-child(2):last-child) { grid-template-columns: 1fr; }
 }
+
+/* Conference presentations grouped by year. */
+.presentation-year { margin-top: 24px; padding-top: 20px; border-top: 1px solid #b9c8da; }
+.presentation-year > h3 { font-size: 25px; }
+.presentation-list h4 { margin: 0 0 8px; color: var(--heading); font-family: var(--display); font-size: 19px; font-weight: 600; line-height: 1.4; }
