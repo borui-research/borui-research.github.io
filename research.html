@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Bo Rui research on lithium-ion and sodium-ion battery safety, electro-chemo-mechanical coupling, and multiphysics modeling at Penn State." />
+    <meta name="description" content="Bo Rui studies mechanics–electrochemistry coupling theory and modeling, and experimental safety testing of advanced energy storage systems at electrode and cell scales." />
     <title>Research | Bo Rui | Battery Safety and Multiphysics</title>
     <link rel="canonical" href="https://borui-research.github.io/research.html" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -39,24 +39,46 @@
             <h1>Research Interests</h1>
             <span class="section-note">Current directions</span>
           </div>
-          <div class="interest-grid">
-            <article class="interest">
-              <h3>Electro-Chemo-Mechanical Coupling and Multiphysics Modeling</h3>
-              <p>
-                Coupled behaviors involving stack pressure, lithium plating,
-                aging, internal short circuits, and electrode degradation, studied
-                using COMSOL, Abaqus, MATLAB, and HPC-based models.
-              </p>
-            </article>
-            <article class="interest">
-              <h3>Battery Safety and Thermo-Mechanical Behavior</h3>
-              <p>
-                Mechanical abuse, thermal runaway, separator failure, and
-                electrolyte-coupled temperature-dependent behavior of lithium-ion
-                and sodium-ion battery components.
-              </p>
-            </article>
-          </div>
+          <section class="research-direction" aria-labelledby="modeling-title">
+            <h2 id="modeling-title">Mechanics–Electrochemistry Coupling: Theory and Modeling</h2>
+            <p class="research-scale">Electrode and cell scales</p>
+            <p>Theoretical and computational investigation of coupled mechanical and electrochemical behavior in battery electrodes and cells, including electrode deformation and debonding, charge-induced swelling, and the interaction of mechanical damage, internal short circuits, and thermal response.</p>
+            <figure class="research-figure">
+              <a href="assets/electrode-prestrain-model.png" target="_blank" rel="noopener" aria-label="View full-size electrode pre-strain and debonding model">
+                <img src="assets/electrode-prestrain-model.png" width="937" height="405" alt="Pre-straining and coating an electrode current collector, followed by pre-strain relief and lithiation or delithiation; cohesive model of electrode debonding." />
+              </a>
+              <figcaption>Electrode scale: pre-strain strategy and cohesive modeling of interfacial debonding.</figcaption>
+            </figure>
+            <figure class="research-figure">
+              <a href="assets/cell-multiphysics-model.png" target="_blank" rel="noopener" aria-label="View full-size coupled cell model">
+                <img src="assets/cell-multiphysics-model.png" width="781" height="465" loading="lazy" alt="Coupled electrochemical, three-dimensional mechanical, internal short-circuit, and thermal models of a battery under indentation." />
+              </a>
+              <figcaption>Cell scale: coupled mechanical, electrochemical, internal short-circuit, and thermal modeling.</figcaption>
+            </figure>
+            <figure class="research-figure">
+              <a href="assets/sodium-ion-electrode-cell-model.png" target="_blank" rel="noopener" aria-label="View full-size sodium-ion battery model">
+                <img src="assets/sodium-ion-electrode-cell-model.png" width="878" height="544" loading="lazy" alt="Three-dimensional layered sodium-ion cell model and schematic of cathode particle shrinkage and anode particle swelling during charging." />
+              </a>
+              <figcaption>Electrode-to-cell modeling of sodium-ion batteries, including layered cell architecture and charge-induced active-particle deformation.</figcaption>
+            </figure>
+          </section>
+          <section class="research-direction" aria-labelledby="testing-title">
+            <h2 id="testing-title">Experimental Safety Testing of Advanced Energy Storage Systems</h2>
+            <p class="research-scale">Electrode and cell scales</p>
+            <p>Experimental characterization of the mechanical behavior and safety of battery electrodes and cells, with emphasis on mechanical abuse, localized loading, and coupled mechanical, electrical, and thermal responses.</p>
+            <figure class="research-figure">
+              <a href="assets/battery-safety-testing.png" target="_blank" rel="noopener" aria-label="View full-size battery safety testing setup">
+                <img src="assets/battery-safety-testing.png" width="790" height="710" loading="lazy" alt="Battery indentation test setup with voltage and temperature measurements, a localized loading particle, and a schematic of the electrode and separator layers." />
+              </a>
+              <figcaption>Cell safety testing under localized mechanical loading, with simultaneous voltage and temperature monitoring.</figcaption>
+            </figure>
+            <figure class="research-figure">
+              <a href="assets/electrode-separator-mechanical-testing.png" target="_blank" rel="noopener" aria-label="View full-size electrode and separator mechanical testing workflow">
+                <img src="assets/electrode-separator-mechanical-testing.png" width="768" height="544" loading="lazy" alt="Electrodes and separator removed from a prismatic cell, prepared as stacked circular discs or strips, and tested in compression or tension using a temperature-controlled chamber." />
+              </a>
+              <figcaption>Electrode and separator characterization: specimen preparation and temperature-controlled compression and tensile testing.</figcaption>
+            </figure>
+          </section>
         </section>
     </main>
     <footer class="site-footer">
