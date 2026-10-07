@@ -521,3 +521,16 @@ a:focus-visible { outline: 3px solid var(--sky); outline-offset: 5px; }
 .presentation-list h4 { margin: 0 0 8px; color: var(--heading); font-family: var(--display); font-size: 19px; font-weight: 600; line-height: 1.4; }
 
 .service-group > article + article { margin-top: 24px; padding-top: 24px; border-top: 1px solid var(--line); }
+
+/* Automatically refreshed publication and Scholar citation badges. */
+.publication-stats { display: flex; align-items: center; flex-wrap: wrap; gap: 12px; margin: 22px 0; }
+.publication-total { display: inline-flex; overflow: hidden; border-radius: 3px; color: #fff; font: 12px/22px var(--sans); }
+.publication-total > span { padding: 0 8px; background: #586476; }
+.publication-total > strong { padding: 0 8px; background: #1e407c; }
+.scholar-citations { display: inline-flex; align-items: center; }
+.scholar-citations img { display: block; max-width: 100%; height: 22px; }
+
+.scholar-citations { overflow: hidden; border-radius: 3px; color: #fff; font: 12px/22px var(--sans); }
+.scholar-citations > span { padding: 0 8px; background: #586476; }
+.scholar-citations > strong { padding: 0 8px; background: #1e407c; }
+.scholar-citations:hover { color: #fff; }

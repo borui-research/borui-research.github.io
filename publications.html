@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="styles.css" />
     <script src="navigation.js" defer></script>
     <script src="analytics.js" defer></script>
+    <script src="publication-stats.js" defer></script>
   </head>
   <body>
     <a class="skip-link" href="#main-content">Skip to main content</a>
@@ -28,7 +29,7 @@
         <a href="research.html">Research</a>
         <a href="publications.html" aria-current="page">Publications</a>
         <a href="teaching.html">Academic Activities</a>
-        <a href="contact.html">Contact</a>
+        <a href="index.html#contact">Contact</a>
       </nav>
     </header>
 
@@ -39,6 +40,13 @@
             <h1>Publications</h1>
             <span class="section-note">Selected papers</span>
           </div>
+          <div class="publication-stats" aria-label="Publication and citation statistics">
+            <span class="publication-total"><span>Total publications</span><strong id="publication-total">13</strong></span>
+            <a class="scholar-citations" href="https://scholar.google.com/citations?user=eAPEMPQAAAAJ&amp;hl=en" aria-label="View total citations on Google Scholar">
+              <span>Google Scholar citations</span><strong id="scholar-citation-total">—</strong>
+            </a>
+          </div>
+          <p id="citation-status" class="metrics-note" role="status"></p>
           <p class="metrics-note">Journal Impact Factors (IF) are linked to publisher sources, checked September 24, 2026. Metric years are shown where explicitly provided; these are journal-level metrics, not publication-year values.</p>
 <section class="publication-year" aria-labelledby="year-2026">
 <h2 id="year-2026">2026</h2>
@@ -198,7 +206,7 @@
     </main>
     <footer class="site-footer">
       <a href="index.html">Bo Rui</a> · The Pennsylvania State University
-      <a href="contact.html">Contact</a>
+      <a href="index.html#contact">Contact</a>
     </footer>
   </body>
 </html>
