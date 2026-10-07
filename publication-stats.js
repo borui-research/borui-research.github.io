@@ -5,7 +5,10 @@ async function loadScholarStats() {
   const count = document.getElementById('scholar-citation-total');
   const status = document.getElementById('citation-status');
   try {
-    const response = await fetch('data/scholar-stats.json', { cache: 'no-cache' });
+    const source = location.hostname === 'borui-research.github.io'
+      ? 'https://raw.githubusercontent.com/borui-research/borui-research.github.io/main/data/scholar-stats.json'
+      : 'data/scholar-stats.json';
+    const response = await fetch(source, { cache: 'no-cache' });
     if (!response.ok) throw new Error('Statistics unavailable');
     const data = await response.json();
     if (data.author_id !== 'eAPEMPQAAAAJ' || !Number.isInteger(data.citations) || data.citations < 0) throw new Error('Invalid statistics');
